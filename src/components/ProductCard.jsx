@@ -1,7 +1,7 @@
 export const ProductCard = ({ product }) => {
 	const { name, description, image, price } = product;
 	return (
-		<div className='flex-auto mx-5 my-5 shadow-xl card bg-base-100 w-80'>
+		<div className='flex-auto mx-5 my-5 shadow-2xl card bg-base-100 w-80'>
 			<figure>
 				<img src={image} alt={name} />
 			</figure>

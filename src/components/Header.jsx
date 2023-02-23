@@ -4,7 +4,7 @@ import Logo from '../assets/images/logo.png';
 export const Header = () => {
 	return (
 		<header className='w-4/5 mx-auto '>
-			<div className='my-10 rounded-lg shadow-md navbar bg-base-300'>
+			<div className='my-10 rounded-lg shadow-2xl navbar bg-base-100'>
 				<div className='flex-1'>
 					<Link to='/' className='flex items-center justify-between'>
 						<img src={Logo} alt='CodeShoe' className='w-10 h-10' />
@@ -13,7 +13,7 @@ export const Header = () => {
 				</div>
 				<div className='flex-none'>
 					<div className='dropdown dropdown-end'>
-						<label tabIndex={0} className='btn btn-ghost btn-circle'>
+						<label tabIndex={0} className='mx-2 btn btn-ghost btn-circle'>
 							<div className='indicator'>
 								<svg
 									xmlns='http://www.w3.org/2000/svg'
@@ -34,7 +34,7 @@ export const Header = () => {
 						</label>
 						<div
 							tabIndex={0}
-							className='mt-3 shadow-md card card-compact dropdown-content w-52 bg-base-300'
+							className='mt-3 shadow-2xl card card-compact dropdown-content w-52 bg-base-100'
 						>
 							<div className='card-body'>
 								<span className='text-lg font-bold'>2 Items</span>
@@ -49,10 +49,10 @@ export const Header = () => {
 							</div>
 						</div>
 					</div>
-					<div className='m-2 dropdown dropdown-end'>
+					<div className='dropdown dropdown-end'>
 						<label
 							tabIndex={0}
-							className='hidden btn btn-ghost btn-circle avatar md:block'
+							className='hidden mx-2 btn btn-ghost btn-circle avatar md:block'
 						>
 							<div className='w-10 rounded-full'>
 								<img
@@ -63,7 +63,7 @@ export const Header = () => {
 						</label>
 						<ul
 							tabIndex={0}
-							className='p-2 mt-3 shadow-md menu menu-compact dropdown-content bg-base-300 rounded-box w-52'
+							className='p-2 mt-3 shadow-2xl menu menu-compact dropdown-content bg-base-100 rounded-box w-52'
 						>
 							<li>
 								<NavLink to='/' className='justify-between bg-inherit'>

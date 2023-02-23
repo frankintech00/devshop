@@ -2,7 +2,7 @@ export const ProductCart = ({ product }) => {
 	const { name, price, image } = product;
 
 	return (
-		<div className='my-2 shadow-xl card bg-base-100'>
+		<div className='my-2 shadow-2xl card bg-base-100'>
 			<div className='flex flex-col items-center justify-between m-2 md:flex-row'>
 				<div>
 					<img
