@@ -1,12 +1,13 @@
 import React from 'react';
-
-import { Header } from './components/index.js';
+import { Header } from './components';
+import { AllRoutes } from './routes/AllRoutes';
 
 function App() {
 	return (
-		<>
+		<div>
 			<Header />
-		</>
+			<AllRoutes />
+		</div>
 	);
 }
 
