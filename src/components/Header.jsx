@@ -49,8 +49,11 @@ export const Header = () => {
 							</div>
 						</div>
 					</div>
-					<div className='dropdown dropdown-end'>
-						<label tabIndex={0} className='btn btn-ghost btn-circle avatar'>
+					<div className='m-2 dropdown dropdown-end'>
+						<label
+							tabIndex={0}
+							className='hidden btn btn-ghost btn-circle avatar md:block'
+						>
 							<div className='w-10 rounded-full'>
 								<img
 									src='https://xsgames.co/randomusers/avatar.php?g=male'

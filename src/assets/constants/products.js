@@ -1,7 +1,7 @@
 export const products = [
 	{
 		id: 1,
-		name: 'Lorem Ipsum',
+		name: 'Salomon Speedcross 5',
 		price: 149,
 		image: '/assets/images/shoe1.png',
 		description:
@@ -9,7 +9,7 @@ export const products = [
 	},
 	{
 		id: 2,
-		name: 'Lorem Ipsum',
+		name: 'Asics	Gel Nimbus 22',
 		price: 49,
 		image: '/assets/images/shoe2.png',
 		description:
@@ -17,7 +17,7 @@ export const products = [
 	},
 	{
 		id: 3,
-		name: 'Lorem Ipsum',
+		name: 'Winmax 200',
 		price: 179,
 		image: '/assets/images/shoe3.png',
 		description:
@@ -25,7 +25,7 @@ export const products = [
 	},
 	{
 		id: 4,
-		name: 'Lorem Ipsum',
+		name: 'Salomon Speedcross 2',
 		price: 39,
 		image: '/assets/images/shoe4.png',
 		description:
@@ -33,7 +33,7 @@ export const products = [
 	},
 	{
 		id: 5,
-		name: 'Lorem Ipsum',
+		name: 'Asics Gel Nimbus 23',
 		price: 199,
 		image: '/assets/images/shoe5.png',
 		description:
@@ -41,7 +41,7 @@ export const products = [
 	},
 	{
 		id: 6,
-		name: 'Lorem Ipsum',
+		name: 'Scot Run500',
 		price: 29,
 		image: '/assets/images/shoe6.png',
 		description:
